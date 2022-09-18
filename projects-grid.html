@@ -4,12 +4,17 @@
     <head>
         
         <meta charset="utf-8" />
-        <title>Projects Grid | Skote - Admin & Dashboard Template</title>
+        <title>Project Grid - MAWJA</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="assets/images/mawja22.png">
+
+        <link href="assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+        <!-- dropzone css -->
+        <link href="assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />
 
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -64,136 +69,7 @@
                             </div>
                         </form>
 
-                        <div class="dropdown dropdown-mega d-none d-lg-block ms-2">
-                            <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                                <span key="t-megamenu">Mega Menu</span>
-                                <i class="mdi mdi-chevron-down"></i> 
-                            </button>
-                            <div class="dropdown-menu dropdown-megamenu">
-                                <div class="row">
-                                    <div class="col-sm-8">
-    
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <h5 class="font-size-14" key="t-ui-components">UI Components</h5>
-                                                <ul class="list-unstyled megamenu-list">
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-lightbox">Lightbox</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-range-slider">Range Slider</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-sweet-alert">Sweet Alert</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-rating">Rating</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-forms">Forms</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-tables">Tables</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-charts">Charts</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="col-md-4">
-                                                <h5 class="font-size-14" key="t-applications">Applications</h5>
-                                                <ul class="list-unstyled megamenu-list">
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-ecommerce">Ecommerce</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-calendar">Calendar</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-email">Email</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-projects">Projects</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-tasks">Tasks</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-contacts">Contacts</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="col-md-4">
-                                                <h5 class="font-size-14" key="t-extra-pages">Extra Pages</h5>
-                                                <ul class="list-unstyled megamenu-list">
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-light-sidebar">Light Sidebar</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-compact-sidebar">Compact Sidebar</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-horizontal">Horizontal layout</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-maintenance">Maintenance</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-coming-soon">Coming Soon</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-timeline">Timeline</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-faqs">FAQs</a>
-                                                    </li>
-                            
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <h5 class="font-size-14" key="t-ui-components">UI Components</h5>
-                                                <ul class="list-unstyled megamenu-list">
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-lightbox">Lightbox</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-range-slider">Range Slider</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-sweet-alert">Sweet Alert</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-rating">Rating</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-forms">Forms</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-tables">Tables</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-charts">Charts</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="col-sm-5">
-                                                <div>
-                                                    <img src="assets/images/megamenu-img.png" alt="" class="img-fluid mx-auto d-block">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <div class="d-flex">
@@ -219,90 +95,7 @@
                             </div>
                         </div>
 
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item waves-effect"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img id="header-lang-img" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-end">
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
-                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">English</span>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
-                                    <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
-                                    <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
-                                    <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
-                                    <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-none d-lg-inline-block ms-1">
-                            <button type="button" class="btn header-item noti-icon waves-effect"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="bx bx-customize"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-                                <div class="px-lg-2">
-                                    <div class="row g-0">
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/github.png" alt="Github">
-                                                <span>GitHub</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
-                                                <span>Bitbucket</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/dribbble.png" alt="dribbble">
-                                                <span>Dribbble</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="row g-0">
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/dropbox.png" alt="dropbox">
-                                                <span>Dropbox</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp">
-                                                <span>Mail Chimp</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/slack.png" alt="slack">
-                                                <span>Slack</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      
 
                         <div class="dropdown d-none d-lg-inline-block ms-1">
                             <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
@@ -425,7 +218,6 @@
                     </div>
                 </div>
             </header>
-
             <!-- ========== Left Sidebar Start ========== -->
             <div class="vertical-menu">
 
@@ -992,319 +784,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="d-flex">
-                                            <div class="flex-shrink-0 me-4">
-                                                <div class="avatar-md">
-                                                    <span class="avatar-title rounded-circle bg-light text-danger font-size-16">
-                                                        <img src="assets/images/companies/img-4.png" alt="" height="30">
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            
-
-                                            <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="text-truncate font-size-15"><a href="javascript: void(0);" class="text-dark">Redesign - Landing page</a></h5>
-                                                <p class="text-muted mb-4">If several languages coalesce</p>
-                                                <div class="avatar-group">
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-6.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-7.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="px-4 py-3 border-top">
-                                        <ul class="list-inline mb-0">
-                                            <li class="list-inline-item me-3">
-                                                <span class="badge bg-success">Completed</span>
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-calendar me-1"></i> 14 Oct, 19
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-comment-dots me-1"></i> 202
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="d-flex">
-                                            <div class="flex-shrink-0 me-4">
-                                                <div class="avatar-md">
-                                                    <span class="avatar-title rounded-circle bg-light text-danger font-size-16">
-                                                        <img src="assets/images/companies/img-5.png" alt="" height="30">
-                                                    </span>
-                                                </div>
-                                            </div>
-
-                                            <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="text-truncate font-size-15"><a href="javascript: void(0);" class="text-dark">Skote Dashboard UI</a></h5>
-                                                <p class="text-muted mb-4">Separate existence is a myth</p>
-                                                <div class="avatar-group">
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-3.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <div class="avatar-xs">
-                                                                <span class="avatar-title rounded-circle bg-danger text-white font-size-16">
-                                                                    3+
-                                                                </span>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="px-4 py-3 border-top">
-                                        <ul class="list-inline mb-0">
-                                            <li class="list-inline-item me-3">
-                                                <span class="badge bg-success">Completed</span>
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-calendar me-1"></i> 13 Oct, 19
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-comment-dots me-1"></i> 194
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="d-flex">
-                                            <div class="flex-shrink-0 me-4">
-                                                <div class="avatar-md">
-                                                    <span class="avatar-title rounded-circle bg-light text-danger font-size-16">
-                                                        <img src="assets/images/companies/img-6.png" alt="" height="30">
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="text-truncate font-size-15"><a href="javascript: void(0);" class="text-dark">Blog Template UI</a></h5>
-                                                <p class="text-muted mb-4"> For science, music, sport, etc</p>
-                                                <div class="avatar-group">
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="px-4 py-3 border-top">
-                                        <ul class="list-inline mb-0">
-                                            <li class="list-inline-item me-3">
-                                                <span class="badge bg-warning">Pending</span>
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-calendar me-1"></i> 24 Oct, 19
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-comment-dots me-1"></i> 122
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="d-flex">
-                                            <div class="flex-shrink-0 me-4">
-                                                <div class="avatar-md">
-                                                    <span class="avatar-title rounded-circle bg-light text-danger font-size-16">
-                                                        <img src="assets/images/companies/img-3.png" alt="" height="30">
-                                                    </span>
-                                                </div>
-                                            </div>
-
-                                            <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="text-truncate font-size-15"><a href="javascript: void(0);" class="text-dark">Multipurpose Landing</a></h5>
-                                                <p class="text-muted mb-4">It will be as simple as Occidental</p>
-                                                <div class="avatar-group">
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <div class="avatar-xs">
-                                                                <span class="avatar-title rounded-circle bg-warning text-white font-size-16">
-                                                                    R
-                                                                </span>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="px-4 py-3 border-top">
-                                        <ul class="list-inline mb-0">
-                                            <li class="list-inline-item me-3">
-                                                <span class="badge bg-danger">Delay</span>
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-calendar me-1"></i> 15 Oct, 19
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-comment-dots me-1"></i> 214
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="d-flex">
-                                            <div class="flex-shrink-0 me-4">
-                                                <div class="avatar-md">
-                                                    <span class="avatar-title rounded-circle bg-light text-danger font-size-16">
-                                                        <img src="assets/images/companies/img-4.png" alt="" height="30">
-                                                    </span>
-                                                </div>
-                                            </div>
-
-                                            <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="text-truncate font-size-15"><a href="javascript: void(0);" class="text-dark">App Landing UI</a></h5>
-                                                <p class="text-muted mb-4">To achieve it would be necessary</p>
-                                                <div class="avatar-group">
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <div class="avatar-xs">
-                                                                <span class="avatar-title rounded-circle bg-pink text-white font-size-16">
-                                                                    L
-                                                                </span>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="px-4 py-3 border-top">
-                                        <ul class="list-inline mb-0">
-                                            <li class="list-inline-item me-3">
-                                                <span class="badge bg-success">Completed</span>
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-calendar me-1"></i> 11 Oct, 19
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-comment-dots me-1"></i> 185
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="d-flex">
-                                            <div class="flex-shrink-0 me-4">
-                                                <div class="avatar-md">
-                                                    <span class="avatar-title rounded-circle bg-light text-danger font-size-16">
-                                                        <img src="assets/images/companies/img-2.png" alt="" height="30">
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            
-
-                                            <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="text-truncate font-size-15"><a href="javascript: void(0);" class="text-dark">New admin Design</a></h5>
-                                                <p class="text-muted mb-4"> Their most common words.</p>
-                                                <div class="avatar-group">
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <div class="avatar-xs">
-                                                                <span class="avatar-title rounded-circle bg-success text-white font-size-16">
-                                                                    A
-                                                                </span>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="avatar-group-item">
-                                                        <a href="javascript: void(0);" class="d-inline-block">
-                                                            <img src="assets/images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="px-4 py-3 border-top">
-                                        <ul class="list-inline mb-0">
-                                            <li class="list-inline-item me-3">
-                                                <span class="badge bg-success">Completed</span>
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-calendar me-1"></i> 12 Oct, 19
-                                            </li>
-                                            <li class="list-inline-item me-3">
-                                                <i class= "bx bx-comment-dots me-1"></i> 106
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                          
                         </div>
                         <!-- end row -->
 
@@ -1346,11 +826,11 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <script>document.write(new Date().getFullYear())</script> © Skote.
+                                <script>document.write(new Date().getFullYear())</script> © MAWJA.
                             </div>
                             <div class="col-sm-6">
                                 <div class="text-sm-end d-none d-sm-block">
-                                    Design & Develop by Themesbrand
+                                    Design & Develop by MAWJA
                                 </div>
                             </div>
                         </div>
